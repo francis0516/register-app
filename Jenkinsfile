@@ -22,7 +22,7 @@ pipeline {
                        steps {
                             sh '''
                     mvn archetype:generate -DgroupId=com.example \
-                    -DartifactId=. \
+                    -DartifactId=register-app-c \
                     -DarchetypeArtifactId=maven-archetype-quickstart \
                     -DinteractiveMode=false
                 '''
@@ -31,7 +31,9 @@ pipeline {
                    
              stage("Build Application"){
                       steps {
-                           sh "mvn clean package"
+                           dir('register-app-ci') {
+                              sh "mvn clean package"
+                           }         
                       }
              }
  
