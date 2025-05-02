@@ -18,6 +18,14 @@ pipeline {
                       }
              }
 
+             stage("Build Application"){
+                      steps {
+                           dir('register-app-ci') {
+                              sh "mvn clean package"
+                           }         
+                      }
+             }
+
              stage('Generate Maven Project') {
                        steps {
                             sh '''
