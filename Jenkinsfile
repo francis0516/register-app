@@ -22,7 +22,7 @@ pipeline {
                        steps {
                             sh '''
                     mvn archetype:generate -DgroupId=com.example \
-                    -DartifactId=register-app-ci \
+                    -DartifactId=.. \
                     -DarchetypeArtifactId=maven-archetype-quickstart \
                     -DinteractiveMode=false
                 '''
