@@ -17,6 +17,17 @@ pipeline {
                            git branch: 'main', credentialsId: 'github', url: 'https://github.com/francis0516/register-app'
                       }
              }
+
+             stage('Generate Maven Project') {
+                       steps {
+                            sh '''
+                    mvn archetype:generate -DgroupId=com.example \
+                    -DartifactId=register-app-ci \
+                    -DarchetypeArtifactId=maven-archetype-quickstart \
+                    -DinteractiveMode=false
+                '''
+                       }
+             }
                    
              stage("Build Application"){
                       steps {
