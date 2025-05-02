@@ -31,9 +31,7 @@ pipeline {
                    
              stage("Build Application"){
                       steps {
-                           dir('register-app-ci') {
-                              sh "mvn clean package"
-                           }         
+                           sh "mvn clean package"      
                       }
              }
  
