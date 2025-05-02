@@ -59,7 +59,7 @@ pipeline {
              stage("Quality Gates"){
                       steps {
                            script {
-                                 waitForQulaityGate abortPipeline: false, credentailsId: 'jenkins-sonarqube-token'
+                                 waitForQualityGate abortPipeline: false, credentailsId: 'jenkins-sonarqube-token'
                            }
                       }
              }              
