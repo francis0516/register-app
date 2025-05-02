@@ -1,32 +1,32 @@
 pipeline {
-         agent { label ‘Jenkins-Agent’ }
+         agent { label 'Jenkins-Agent' }
          tools {
-            jdk ‘Java17’
-            maven ‘Maven3’
+            jdk 'Java17'
+            maven 'Maven3'
             }
 
          stages {
-             stage(“Cleanup Workspace”){
+             stage("Cleanup Workspace"){
                       steps {
                       cleanWs()
                       }
              }
 
-             stage(“Checkout from SCM”){
+             stage("Checkout from SCM"){
                       steps {
-                           git branch: ‘main’, credentialsId: ‘github’, url: ‘https://github.com/francis0516/register-app’
+                           git branch: 'main', credentialsId: 'github', url: 'https://github.com/francis0516/register-app'
                       }
              }
                    
-             stage(“Build Application”){
+             stage("Build Application"){
                       steps {
-                           sh “mvn clean package”
+                           sh "mvn clean package"
                       }
              }
  
-             stage(“Test Application”){
+             stage("Test Application"){
                       steps {
-                           sh “mvn test”
+                           sh "mvn test"
                       }
              }
          }
