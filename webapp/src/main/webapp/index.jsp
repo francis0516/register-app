@@ -1,6 +1,6 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>Welcome to Henogez Group LLC</h1>
+    <h1>New user Register for Henogez Group LLC</h1>
     <p>Please fill in this form to create a user account.</p>
     <hr>
      
@@ -24,15 +24,15 @@
     <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
     <hr>
     <br>
-    <p>By creating user account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
     <button type="submit" class="registerbtn">Register</button>
   </div>
   <div class="container signin">
-    <p>Already have a user account? <a href="#">Sign in</a>.</p>
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
 
-   <h1> Thank You for using Henogez Platform</h1>
+   <h1> Thank You for Using our Platform</h1>
    <br>
-   <h1> We are committed to always bring you the best  . </h1>
+   <h1> We are committed to serve you better. </h1>
    
 </form>
