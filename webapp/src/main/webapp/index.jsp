@@ -35,6 +35,6 @@
    <br>
    <h1> We are committed to serve you better. </h1>
    <br>
-   <h1> Thank you for Trusting in us. </h1>
+   <h1> Thank you for Beleiving in us. </h1>
    
 </form>
