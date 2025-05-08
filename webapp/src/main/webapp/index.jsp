@@ -36,5 +36,7 @@
    <h1> We are committed to serve you better. </h1>
    <br>
    <h1> Thank you for all for your patronage. </h1>
+   <br>
+   <h1> This CI/CD Jenkins build will not kill person. </h1>
    
 </form>
