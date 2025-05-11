@@ -35,6 +35,6 @@
    <br>
    <h1> We are committed to serve you better. </h1>
    <br>
-   <h1> Thank you all for believing in us. </h1>
+   <h1> Happy Mothers Day. </h1>
    
 </form>
