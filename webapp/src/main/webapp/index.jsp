@@ -35,6 +35,6 @@
    <br>
    <h1> We are committed to serve you better. </h1>
    <br>
-   <h1> Congratulation Osimhen. </h1>
+   <h1> Congratulation Osimhen of Galatasaray. </h1>
    
 </form>
