@@ -35,6 +35,6 @@
    <br>
    <h1> We are committed to serve you better. </h1>
    <br>
-   <h1> Congratulation Osimhen of Galatasaray. </h1>
+   <h1> Congratulation Osimhen and Galatasaray for winning the Turkish cup and Super Ligue. </h1>
    
 </form>
