@@ -1,6 +1,6 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>New user Register for Henogez Group LLC</h1>
+    <h1>New user Register with Henogez Technologies</h1>
     <p>Please fill in this form to create a user account.</p>
     <hr>
      
