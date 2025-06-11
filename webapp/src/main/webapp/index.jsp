@@ -34,8 +34,6 @@
    <h1> Thank You for Using our Platform</h1>
    <br>
    <h1> We are committed to serve you better. </h1>
-   <br>
-   <h1> Congratulations Chelsea FC for winning Europa Conference League 2025. </h1>
    <br> 
    <h1> Henogez Technologies. </h1>
    
