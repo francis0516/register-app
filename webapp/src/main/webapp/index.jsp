@@ -35,6 +35,8 @@
    <br>
    <h1> We are committed to serve you better. </h1>
    <br>
-   <h1> Congratulation Osimhen and Galatasaray for winning the Turkish cup and Super Ligue. </h1>
+   <h1> Congratulations Chelsea FC for winning Europa Conference League 2025. </h1>
+   <br> 
+   <h1> Henogez Technologies. </h1>
    
 </form>
