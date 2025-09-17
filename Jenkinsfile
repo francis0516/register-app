@@ -71,6 +71,24 @@ pipeline {
                            }
                       }
              }
+
+             stage("Trivy Scan") {
+                       steps {
+                            script {
+	                         sh ('trivy image docker.io/francis0516/register-app-pipeline:latest --format table --severity HIGH,CRITICAL')
+                            }
+                       }
+             }
+
+             stage ('Cleanup Artifacts') {
+                       steps {
+                            script {
+                                  sh "docker rmi ${IMAGE_NAME}:${IMAGE_TAG}"
+                                  sh "docker rmi ${IMAGE_NAME}:latest"
+                            }
+                       }
+             
+             }
          
          }
 }
