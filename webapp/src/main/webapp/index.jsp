@@ -36,7 +36,5 @@
    <h1> We are committed to serve you better. </h1>
    <br> 
    <h1> In Henogez Technologies we are Happy to serve you better. </h1>
-   <br> 
-   <h1> In God We Trust. </h1>
-   
+     
 </form>
