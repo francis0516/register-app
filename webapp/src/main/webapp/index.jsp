@@ -37,6 +37,6 @@
    <br> 
    <h1> Henogez Technologies. </h1>
    <br> 
-   <h1> Thanks for Trusting us. </h1>
+   <h1> Thanks for Trusting us in Henogez Technologies. </h1>
    
 </form>
