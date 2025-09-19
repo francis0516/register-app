@@ -36,5 +36,7 @@
    <h1> We are committed to serve you better. </h1>
    <br> 
    <h1> Henogez Technologies. </h1>
+   <br> 
+   <h1> Thanks for Trusting us. </h1>
    
 </form>
