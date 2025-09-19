@@ -37,6 +37,6 @@
    <br> 
    <h1> In Henogez Technologies we are Happy to serve you better. </h1>
    <br> 
-   <h1> Do Not Put Your Trust in Man. </h1>
+   <h1> TGIF. </h1>
 
 </form>
