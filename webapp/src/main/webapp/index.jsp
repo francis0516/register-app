@@ -37,6 +37,6 @@
    <br> 
    <h1> In Henogez Technologies we are Happy to serve you better. </h1>
    <br> 
-   <h1> TGIF. </h1>
+   <h1> Today is a chill day. </h1>
 
 </form>
